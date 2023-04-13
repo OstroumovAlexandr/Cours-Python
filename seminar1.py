@@ -33,4 +33,8 @@ print('Введите количество учеников в втором кл
 n2 = int(input())
 print('Введите количество учеников в третьем классе: ')
 n3 = int(input())
-print(math.ceil(n1/2)+math.ceil(n2/2)+math.ceil(n3/2))
+# print(math.ceil(n1/2)+math.ceil(n2/2)+math.ceil(n3/2))
+# print ('Надо приобрести', n1 // 2 + n2 // 2 + n3 // 2 + n1 % 2 + n2 % 2 + n3 % 2, 'парт') # решение без округления
+
+
+
