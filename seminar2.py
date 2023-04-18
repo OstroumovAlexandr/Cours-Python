@@ -52,17 +52,17 @@
 # Input: 6 -> -20 30 -40 50 10 -10
 # Output: 2
 
-import random
-n = int(input("Введите число: "))
-count = 0
-res = 0
-for i in range(n):
-    temp = random.randint(-50, 51)
-    print(temp, end=" ")
-if temp > 0:
-    count += 1
-else:
-    count = 0
-if count > res:
-    res = count
-    print(f'\n {res}')
+# import random
+# n = int(input("Введите число: "))
+# count = 0
+# res = 0
+# for i in range(n):
+#     temp = random.randint(-50, 51)
+#     print(temp, end=" ")
+# if temp > 0:
+#     count += 1
+# else:
+#     count = 0
+# if count > res:
+#     res = count
+#     print(f'\n {res}')
