@@ -17,9 +17,10 @@ import random
 n = int(input('Введите размерность массив N: '))
 lst = [random.randint(-5,5) for i in range (n)]
 print(lst)
-x = int(input('Введите искомое число Х: '))
+x = int(input('Введите искомое число Х в диапазоне от -5 до 5: '))
+
 min = max(lst) - x
-for i in range(len(lst)):
+for i in range(n):
     if abs(lst[i] - x) < min:
          min = abs(lst[i] - x)
          el = lst[i]    
