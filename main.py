@@ -53,3 +53,23 @@
 # text = text[2:9] + text[-5] + text[:2] # ЕШЬ ещёбСь
 # print(text)
 
+
+
+
+# def sum_numbers(n, y = 'Hello'):
+    # summa = 0
+    # print(y)
+    # for i in range (1, n+1):
+    #     summa += 1
+    # return summa
+
+# a = sum_numbers(5)
+# print(a)
+
+# def sum_str(*args):
+#     res =''
+#     for i in args:
+#         res += i
+#     return res
+# print(sum_str('q', 'e', 'l'))
+
