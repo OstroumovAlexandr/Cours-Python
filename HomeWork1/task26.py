@@ -8,8 +8,12 @@
 def amplif(a,b): 
     if b == 1: # базис функции
         return a
-    return a * amplif(a, b -1)
+    elif b == 0:
+        return 1
+    else:
+        return a * amplif(a, b -1)
 
 num = int(input('Введите число А: '))
 exp = int(input('Введите степень В: '))
+
 print ("Число", num, " в степени", exp, "равно", amplif(num, exp))
